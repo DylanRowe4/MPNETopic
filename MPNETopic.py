@@ -75,7 +75,7 @@ class MPNETopic:
         
         
     #create our own tfidf function
-    def class_based_tf_idf(self, documents, doc_count, ngram_range=(1, 1)):
+    def class_based_tf_idf(self, documents, doc_count, ngram_range=(1, 3)):
         """
         Compute class based tf-idf to supply documents within the same label or class (cluster) the same class vector.
         """
